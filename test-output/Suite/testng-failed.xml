@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="firstname" value="Amruta"/>
+  <parameter name="lastname" value="ray"/>
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.etlhive.selenium.GoogleTest">
+        <methods>
+          <include name="f1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.etlhive.selenium.GoogleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
